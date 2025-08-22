@@ -267,7 +267,7 @@
                     </svg>
                     <div class="absolute inset-0 rounded-t-lg lg:rounded-t-none lg:rounded-r-lg shadow-[inset_0px_0px_0px_1px_rgba(26,26,0,0.16)] dark:shadow-[inset_0px_0px_0px_1px_#fffaed2d]"></div>
                 </div>
-                <div class="text-5xl text-tes "> sasjkajk</div>
+                <div class="text-5xl text-tes bg-bg"> sasjkajk</div>
             </main>
         </div>
 
