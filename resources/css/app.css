@@ -1,5 +1,5 @@
-@import '@fontsource/inter/variable.css';
-@import 'tailwindcss';
+@import "@fontsource/inter/variable.css";
+@import "tailwindcss";
 
 @source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
 @source '../../storage/framework/views/*.php';
@@ -10,8 +10,83 @@
     /* --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji'; */
 
-        --color-bg: #ECF0F1;
-        
-        /* Neutral */
-        --color-neutral-50: #F6F6F6;
+    --color-bg: #ecf0f1;
+
+    /* Neutral */
+    --color-neutral-50: #f6f6f6;
+    --color-neutral-100: #e7e7e7;
+    --color-neutral-200: #d1d1d1;
+    --color-neutral-300: #b0b0b0;
+    --color-neutral-400: #888888;
+    --color-neutral-500: #6d6d6d;
+    --color-neutral-600: #5d5d5d;
+    --color-neutral-700: #4f4f4f;
+    --color-neutral-800: #454545;
+    --color-neutral-900: #3d3d3d;
+    --color-neutral-black: #1b1b1b;
+
+    /* Primary */
+    --color-primary-50: #eefff4;
+    --color-primary-100: #d6ffe8;
+    --color-primary-200: #b0ffd4;
+    --color-primary-300: #72ffb3;
+    --color-primary-400: #2efa89;
+    --color-primary-500: #03e469;
+    --color-primary-600: #00be53;
+    --color-primary-700: #019444;
+    --color-primary-800: #077339; /* base */
+    --color-primary-900: #085f32;
+    --color-primary-950: #003619;
+
+    /* Secondary */
+    --color-secondary-50: #faf8ec;
+    --color-secondary-100: #f4eecd;
+    --color-secondary-200: #ebdb9d;
+    --color-secondary-300: #dfc265;
+    --color-secondary-400: #d5a93a;
+    --color-secondary-500: #ce9a2f; /* base */
+    --color-secondary-600: #aa7424;
+    --color-secondary-700: #885420;
+    --color-secondary-800: #724521;
+    --color-secondary-900: #613b22;
+    --color-secondary-950: #381e10;
+
+    /* Success */
+    --color-success-50: #f2fbf5;
+    --color-success-100: #e1f7e7;
+    --color-success-200: #c4eed2;
+    --color-success-300: #96dfae;
+    --color-success-400: #60c883;
+    --color-success-500: #3aad61;
+    --color-success-600: #2b8e4d;
+    --color-success-700: #25703f; /* base */
+    --color-success-800: #225936;
+    --color-success-900: #1d4a2e;
+    --color-success-950: #0b2816;
+
+    /* Warning */
+    --color-warning-50: #fffdea;
+    --color-warning-100: #fff6c5;
+    --color-warning-200: #ffee85;
+    --color-warning-300: #ffdf46;
+    --color-warning-400: #ffcd1b;
+    --color-warning-500: #ffab00; /* base */
+    --color-warning-600: #e28200;
+    --color-warning-700: #bb5a02;
+    --color-warning-800: #984508;
+    --color-warning-900: #7c390b;
+    --color-warning-950: #481c00;
+
+    /* Danger */
+    --color-danger-50: #fff1f0;
+    --color-danger-100: #ffe0de;
+    --color-danger-200: #ffc7c3;
+    --color-danger-300: #ff9f99;
+    --color-danger-400: #ff675e;
+    --color-danger-500: #ff382c;
+    --color-danger-600: #f51b0d;
+    --color-danger-700: #c11106; /* base */
+    --color-danger-800: #aa130a;
+    --color-danger-900: #8c1710;
+    --color-danger-950: #4d0602;
 }
